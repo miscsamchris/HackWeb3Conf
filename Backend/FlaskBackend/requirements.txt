@@ -1,0 +1,12 @@
+flask[async]
+flask_cors
+openai
+pycryptodome
+pyTelegramBotAPI
+aptos_sdk
+pillow
+asyncio
+gunicorn
+python-dotenv
+telethon
+pymongo

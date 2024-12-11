@@ -1,0 +1,6 @@
+{
+    "rewrites": [
+        { "source": "/user/:userId", "destination": "/index.html" },
+        { "source": "/(.*)", "destination": "/index.html" }
+    ]
+}

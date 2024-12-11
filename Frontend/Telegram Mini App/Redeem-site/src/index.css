@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+
+.wallet-button-wrapper {
+  background: linear-gradient(to right, #3b82f6, #8b5cf6, #ec4899);
+  padding: 2px;
+  border-radius: 9999px;
+  display: inline-block;
+}
+
+.wallet-button {
+  background-color: #111827;
+  color: white;
+  border: none;
+  border-radius: 9999px;
+  padding: 12px 24px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  min-width: 200px;
+  text-align: center;
+}
+
+.wallet-button:hover {
+  background-color: #1f2937;
+}
+
